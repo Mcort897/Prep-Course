@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home"
+        android:title="Inicio" />
+    
+    <item
+        android:id="@+id/appsFragment"
+        android:icon="@drawable/ic_apps"
+        android:title="Aplicaciones" />
+    
+    <item
+        android:id="@+id/timeFragment"
+        android:icon="@drawable/ic_time"
+        android:title="Tiempo" />
+    
+    <item
+        android:id="@+id/requestsFragment"
+        android:icon="@drawable/ic_requests"
+        android:title="Solicitudes" />
+    
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_profile"
+        android:title="Perfil" />
+    
+</menu>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_navigation"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.parentalcontrolpro.ui.parent.dashboard.DashboardFragment"
+        android:label="@string/dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/childrenFragment"
+        android:name="com.parentalcontrolpro.ui.parent.children.ChildrenFragment"
+        android:label="@string/children"
+        tools:layout="@layout/fragment_children" />
+
+    <fragment
+        android:id="@+id/monitoringFragment"
+        android:name="com.parentalcontrolpro.ui.parent.monitoring.MonitoringFragment"
+        android:label="@string/monitoring"
+        tools:layout="@layout/fragment_monitoring" />
+
+    <fragment
+        android:id="@+id/reportsFragment"
+        android:name="com.parentalcontrolpro.ui.parent.reports.ReportsFragment"
+        android:label="@string/reports"
+        tools:layout="@layout/fragment_reports" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.parentalcontrolpro.ui.parent.settings.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>
