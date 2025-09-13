@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores principales -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Colores del tema SafeGuard -->
+    <color name="primary">#FF2196F3</color>
+    <color name="primary_dark">#FF1976D2</color>
+    <color name="primary_light">#FFBBDEFB</color>
+    <color name="accent">#FFFF5722</color>
+    <color name="accent_light">#FFFF8A65</color>
+    
+    <!-- Colores de estado -->
+    <color name="success">#FF4CAF50</color>
+    <color name="warning">#FFFF9800</color>
+    <color name="error">#FFF44336</color>
+    <color name="info">#FF2196F3</color>
+    
+    <!-- Colores de fondo -->
+    <color name="background_light">#FFFAFAFA</color>
+    <color name="background_dark">#FF121212</color>
+    <color name="surface_light">#FFFFFFFF</color>
+    <color name="surface_dark">#FF1E1E1E</color>
+    
+    <!-- Colores de texto -->
+    <color name="text_primary_light">#DE000000</color>
+    <color name="text_secondary_light">#99000000</color>
+    <color name="text_primary_dark">#FFFFFFFF</color>
+    <color name="text_secondary_dark">#B3FFFFFF</color>
+    
+    <!-- Colores específicos de la app -->
+    <color name="safe_zone">#FF4CAF50</color>
+    <color name="danger_zone">#FFF44336</color>
+    <color name="blocked_app">#FFFF5722</color>
+    <color name="allowed_app">#FF4CAF50</color>
+    <color name="time_limit_warning">#FFFF9800</color>
+    <color name="time_limit_exceeded">#FFF44336</color>
+    
+    <!-- Colores de gráficos -->
+    <color name="chart_color_1">#FF2196F3</color>
+    <color name="chart_color_2">#FF4CAF50</color>
+    <color name="chart_color_3">#FFFF9800</color>
+    <color name="chart_color_4">#FF9C27B0</color>
+    <color name="chart_color_5">#FFFF5722</color>
+    
+    <!-- Transparencias -->
+    <color name="overlay_light">#80FFFFFF</color>
+    <color name="overlay_dark">#80000000</color>
+    <color name="ripple_light">#1F000000</color>
+    <color name="ripple_dark">#1FFFFFFF</color>
+</resources>
