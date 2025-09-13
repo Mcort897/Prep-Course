@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Guardian</string>
+    <string name="channel_location_name">Ubicación en segundo plano</string>
+    <string name="channel_location_description">Notificaciones para el servicio de ubicación</string>
+    <string name="notification_location_title">Guardian activo</string>
+    <string name="notification_location_text">Monitoreando ubicación en segundo plano</string>
+    <string name="action_open_settings">Abrir ajustes</string>
+    <string name="action_request_permissions">Conceder permisos</string>
+    <string name="action_start_location">Iniciar ubicación</string>
+    <string name="action_stop_location">Detener ubicación</string>
+    <string name="action_open_usage_access">Permiso de uso de apps</string>
+    <string name="action_schedule_usage_sync">Programar sincronización de uso</string>
+    <string name="permission_status">Permisos: %1$s</string>
+    <string name="signed_in_as">Sesión: %1$s</string>
+    <string name="sign_in">Iniciar sesión anónima</string>
+    <string name="sign_out">Cerrar sesión</string>
+</resources>
+
