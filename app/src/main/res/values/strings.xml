@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">SafeGuard Parental</string>
+    
+    <!-- Pantallas principales -->
+    <string name="welcome_title">Bienvenido a SafeGuard</string>
+    <string name="welcome_subtitle">Control parental inteligente y seguro</string>
+    <string name="get_started">Comenzar</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="register">Registrarse</string>
+    <string name="logout">Cerrar Sesión</string>
+    
+    <!-- Navegación -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_children">Niños</string>
+    <string name="nav_apps">Aplicaciones</string>
+    <string name="nav_location">Ubicación</string>
+    <string name="nav_reports">Reportes</string>
+    <string name="nav_settings">Configuración</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard_title">Panel de Control</string>
+    <string name="active_children">Niños Activos</string>
+    <string name="screen_time_today">Tiempo de Pantalla Hoy</string>
+    <string name="blocked_apps">Apps Bloqueadas</string>
+    <string name="location_updates">Actualizaciones de Ubicación</string>
+    
+    <!-- Gestión de niños -->
+    <string name="add_child">Agregar Niño</string>
+    <string name="child_name">Nombre del Niño</string>
+    <string name="child_age">Edad</string>
+    <string name="child_device">Dispositivo</string>
+    <string name="save_child">Guardar</string>
+    <string name="edit_child">Editar Niño</string>
+    <string name="delete_child">Eliminar Niño</string>
+    
+    <!-- Control de aplicaciones -->
+    <string name="app_control_title">Control de Aplicaciones</string>
+    <string name="allowed_apps">Apps Permitidas</string>
+    <string name="blocked_apps_title">Apps Bloqueadas</string>
+    <string name="time_limits">Límites de Tiempo</string>
+    <string name="set_time_limit">Establecer Límite</string>
+    <string name="block_app">Bloquear App</string>
+    <string name="unblock_app">Desbloquear App</string>
+    
+    <!-- Ubicación -->
+    <string name="location_title">Ubicación</string>
+    <string name="current_location">Ubicación Actual</string>
+    <string name="location_history">Historial de Ubicaciones</string>
+    <string name="safe_zones">Zonas Seguras</string>
+    <string name="add_safe_zone">Agregar Zona Segura</string>
+    <string name="zone_name">Nombre de la Zona</string>
+    <string name="zone_radius">Radio (metros)</string>
+    
+    <!-- Reportes -->
+    <string name="reports_title">Reportes</string>
+    <string name="daily_report">Reporte Diario</string>
+    <string name="weekly_report">Reporte Semanal</string>
+    <string name="monthly_report">Reporte Mensual</string>
+    <string name="screen_time_report">Tiempo de Pantalla</string>
+    <string name="app_usage_report">Uso de Aplicaciones</string>
+    <string name="location_report">Reporte de Ubicación</string>
+    
+    <!-- Configuración -->
+    <string name="settings_title">Configuración</string>
+    <string name="notification_settings">Notificaciones</string>
+    <string name="privacy_settings">Privacidad</string>
+    <string name="account_settings">Cuenta</string>
+    <string name="device_admin_settings">Administración del Dispositivo</string>
+    <string name="enable_device_admin">Habilitar Administración</string>
+    <string name="usage_access_settings">Acceso a Estadísticas de Uso</string>
+    <string name="enable_usage_access">Habilitar Acceso</string>
+    
+    <!-- Mensajes de error -->
+    <string name="error_network">Error de conexión a internet</string>
+    <string name="error_permission_denied">Permiso denegado</string>
+    <string name="error_location_disabled">Ubicación deshabilitada</string>
+    <string name="error_device_admin_required">Se requiere administración del dispositivo</string>
+    <string name="error_usage_access_required">Se requiere acceso a estadísticas de uso</string>
+    
+    <!-- Mensajes de éxito -->
+    <string name="success_child_added">Niño agregado exitosamente</string>
+    <string name="success_app_blocked">Aplicación bloqueada</string>
+    <string name="success_zone_created">Zona segura creada</string>
+    <string name="success_settings_saved">Configuración guardada</string>
+    
+    <!-- Notificaciones -->
+    <string name="notification_channel_monitoring">Monitoreo</string>
+    <string name="notification_channel_alerts">Alertas</string>
+    <string name="notification_channel_location">Ubicación</string>
+    <string name="notification_monitoring_title">SafeGuard está monitoreando</string>
+    <string name="notification_monitoring_content">Protegiendo a tus hijos</string>
+    <string name="notification_alert_title">Alerta de SafeGuard</string>
+    <string name="notification_location_title">Actualización de ubicación</string>
+    
+    <!-- Diálogos -->
+    <string name="dialog_confirm">Confirmar</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="dialog_delete_title">Confirmar eliminación</string>
+    <string name="dialog_delete_message">¿Estás seguro de que quieres eliminar este elemento?</string>
+    
+    <!-- Tiempo -->
+    <string name="time_minutes">minutos</string>
+    <string name="time_hours">horas</string>
+    <string name="time_days">días</string>
+    <string name="today">Hoy</string>
+    <string name="yesterday">Ayer</string>
+    <string name="this_week">Esta semana</string>
+    <string name="last_week">Semana pasada</string>
+    
+    <!-- Estados -->
+    <string name="status_online">En línea</string>
+    <string name="status_offline">Fuera de línea</string>
+    <string name="status_active">Activo</string>
+    <string name="status_inactive">Inactivo</string>
+    <string name="status_blocked">Bloqueado</string>
+    <string name="status_allowed">Permitido</string>
+</resources>

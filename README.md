@@ -1,66 +1,219 @@
-![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
+# 🛡️ SafeGuard Parental
 
-# Prep Course
+## 📱 Control Parental Inteligente y Seguro
 
-#### Introducción
+SafeGuard Parental es una aplicación avanzada de control parental para Android que supera las funcionalidades de Qustodio con características mejoradas y una interfaz moderna. Desarrollada con las últimas tecnologías de Android y Firebase.
 
-¡Hola! Bienvenido al Prep Course para la carrera de Desarrollo Web Full Stack
+## ✨ Características Principales
 
-En este curso introductorio podrás aprender todo el contenido que luego será evaluado en el Henry Challenge, el último paso para ingresar a la carrera de Desarrollo Web Full Stack en Henry.
+### 🎛️ Dashboard Inteligente
+- **Resumen en tiempo real** de la actividad de todos los hijos
+- **Estadísticas visuales** de tiempo de pantalla y uso de apps
+- **Alertas inmediatas** sobre actividades importantes
+- **Acciones rápidas** para control inmediato
 
-## ¿Qué es el Prep Course?
+### 👥 Gestión Avanzada de Hijos
+- **Perfiles personalizados** para cada hijo
+- **Monitoreo de estado** en tiempo real (online/offline)
+- **Configuración individual** de límites y restricciones
+- **Historial completo** de actividades
 
-El Prep Course, o curso preparatorio, es un curso que diseñamos desde Henry con la finalidad de nivelar a todos nuestros aplicantes. La idea es que con este curso puedas dar tus primeros pasos en tecnología y así aprender esos conceptos básicos que serán necesarios para cuando estés dentro de la carrera.
+### 📱 Control de Aplicaciones Mejorado
+- **Monitoreo en tiempo real** de todas las apps instaladas
+- **Bloqueo inteligente** con categorización automática
+- **Límites de tiempo flexibles** por app y categoría
+- **Estadísticas detalladas** de uso y patrones
 
-#### ¿En qué consiste el Prep Course?
+### 📍 Ubicación GPS Avanzada
+- **Seguimiento preciso** con Google Location Services
+- **Zonas seguras configurables** con alertas personalizadas
+- **Historial de ubicaciones** con análisis de patrones
+- **Alertas inteligentes** de entrada/salida de zonas
 
-El curso consiste en una serie de videos, material escrito y ejercicios para que puedas ir aprendiendo estos conceptos básicos de Javascript, HTML y CSS. Todo el material se encuentra **aquí en la parte superior de la página**, iniciando por la sección de **"Intro"** y finalizando en la sección del **"Challenge"**.
+### 🌐 Filtros de Contenido Web
+- **Bloqueo automático** de contenido inapropiado
+- **Búsqueda segura** en todos los navegadores
+- **Lista personalizable** de sitios bloqueados/permitidos
+- **Categorización inteligente** de contenido
 
-Podrás ir avanzando con el contenido a tu ritmo y de manera asincrónica (es decir, en los horarios y tiempos que tu prefieras). Cuando hayas finalizado, podrás inscribirte para realizar el Henry Challenge.
+### 📊 Reportes Detallados
+- **Reportes automáticos** diarios, semanales y mensuales
+- **Análisis de tendencias** y patrones de uso
+- **Exportación a PDF/Excel** para revisión offline
+- **Gráficos interactivos** con estadísticas avanzadas
 
-## ¿Qué es el Henry Challenge?
+### 🔔 Sistema de Notificaciones
+- **Alertas en tiempo real** para actividades críticas
+- **Notificaciones personalizables** por tipo y prioridad
+- **Resúmenes periódicos** de actividad
+- **Integración con Firebase Messaging**
 
-Es un examen donde evaluamos los conceptos que se aprenden en el Prep Course. El examen tiene la finalidad de asegurarnos que realmente se han aprendido estos conceptos, dado que tenerlos bien claros es la clave de éxito para que puedas avanzar bien dentro de la carrera.
-El examen se realiza todos los sábados, previa inscripción en el siguiente [link](https://www.admissions.soyhenry.com/). Podrás rendirlo todas las veces que quieras. Para más información, puedes ir a la sección del challenge de este repositorio (prep.soyhenry.com/challenge).
+## 🚀 Tecnologías Utilizadas
 
-## ¿Qué puedo hacer si tengo dudas?
+### 📱 Frontend Android
+- **Jetpack Compose** - UI moderna y reactiva
+- **Material Design 3** - Interfaz intuitiva y accesible
+- **Navigation Component** - Navegación fluida
+- **ViewModel + LiveData** - Arquitectura MVVM
 
-Contamos con dos herramientas de apoyo:
+### ☁️ Backend Firebase
+- **Firebase Authentication** - Autenticación segura
+- **Cloud Firestore** - Base de datos en tiempo real
+- **Cloud Storage** - Almacenamiento de archivos
+- **Firebase Analytics** - Análisis de uso
+- **Cloud Messaging** - Notificaciones push
 
-**Slack:** es una plataforma de comunicación, donde podrás ponerte en contacto con nuestra comunidad que siempre te ayudará a resolver todas tus dudas. Encontrarás acceso a Slack desde la [plataforma de admisión](https://www.admissions.soyhenry.com/) o desde los mails que recibiste al momento de aplicar.
-Más adelante te explicaremos cómo usar la herramienta.
+### 🛠️ Herramientas y Librerías
+- **Room Database** - Cache local eficiente
+- **WorkManager** - Tareas en segundo plano
+- **Retrofit** - Cliente HTTP robusto
+- **Coil** - Carga de imágenes optimizada
+- **MPAndroidChart** - Gráficos y estadísticas
 
-**Clases de apoyo en vivo:** de lunes a viernes hay un espacio en vivo via Zoom con estudiantes avanzados que se postulan para responder todas tus consultas.
+## 📋 Requisitos del Sistema
 
-#### Entonces, ¿qué debo hacer ahora para avanzar con el proceso?
+### 📱 Dispositivo Android
+- **Android 7.0 (API 24)** o superior
+- **2GB RAM** mínimo (4GB recomendado)
+- **100MB** espacio de almacenamiento
+- **GPS y conexión a internet** requeridos
 
-Debes comenzar a ver todos los videos, el material escrito y a hacer los ejercicios, siguiendo el orden postulado aquí en el curso. Una vez que hayas finalizado, podrás realizar el Henry Challenge.
+### 🛠️ Desarrollo
+- **Android Studio** 2022.3.1 o superior
+- **JDK 11** o superior
+- **Gradle 8.0** o superior
+- **Android SDK 34**
 
-Cualquier duda, nos puedes escribir a admisiones@soyhenry.com
-¡Muchos éxitos!
+## 🚀 Instalación Rápida
 
-## Clases de Apoyo
+### Para Usuarios
+1. Descarga el APK desde las releases
+2. Habilita "Fuentes desconocidas" en Configuración
+3. Instala la aplicación
+4. Sigue el asistente de configuración
+5. Concede los permisos necesarios
 
-Para poder acompañarte en esta etapa, ponemos a disposición las “Clases de apoyo en vivo”. Estos son espacios donde los Henry Heros (HHs), es decir estudiantes avanzados de Henry, se ponen a disposición para despejar todas las dudas que puedas tener mientras estás estudiando el Prep Course.
+### Para Desarrolladores
+```bash
+# Clonar el repositorio
+git clone https://github.com/tu-usuario/safeguard-parental.git
 
-Las clases son de lunes a viernes, por la tarde. Cada día se establece una temática distinta a trabajar. Deberás llegar a la clase habiendo visto los videos sobre ese tema e intentado resolver los ejercicios, dado que en las clases no se explicará los temas desde cero sino que se resolverán dudas puntuales.
+# Abrir en Android Studio
+# Sincronizar Gradle
+# Configurar Firebase (ver GUIA_COMPILACION.md)
+# Compilar e instalar
+```
 
-Si no puedes asistir al espacio en vivo, podrás ver la grabación. Puedes encontrar el calendario con las clases, el link de acceso y el link de la grabación, aquí: [calendario](/Calendario)
+## 📚 Documentación Completa
 
-## Open House
+- **[📖 Guía de Compilación](GUIA_COMPILACION.md)** - Instrucciones detalladas paso a paso
+- **[⚙️ Configuración Firebase](docs/firebase-setup.md)** - Setup completo de Firebase
+- **[🔧 API Reference](docs/api-reference.md)** - Documentación técnica
+- **[🐛 Troubleshooting](docs/troubleshooting.md)** - Solución de problemas
 
-Te compartimos esta grabación del último Open House que hicimos en nuestro canal de Youtube. En este video podrás conocer más sobre Henry, la carrera y el proceso de admisión:
+## 🏗️ Arquitectura del Proyecto
 
-<div class="iframeContainer">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/p_Hb0_v8SAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+```
+SafeGuardParental/
+├── 📱 app/
+│   ├── 🎨 src/main/
+│   │   ├── 📄 java/com/safeguard/parental/
+│   │   │   ├── 🏠 ui/                    # Interfaz de usuario
+│   │   │   ├── 📊 data/                  # Repositorios y modelos
+│   │   │   ├── 🔧 services/              # Servicios de fondo
+│   │   │   ├── 👷 workers/               # Tareas programadas
+│   │   │   ├── 📡 receivers/             # Broadcast receivers
+│   │   │   └── 🛠️ utils/                 # Utilidades y constantes
+│   │   ├── 🎨 res/                       # Recursos (layouts, strings, etc.)
+│   │   └── 📋 AndroidManifest.xml        # Configuración de la app
+│   ├── 🔧 build.gradle                   # Configuración de build
+│   └── 🔥 google-services.json          # Configuración Firebase
+├── 📁 gradle/wrapper/                    # Gradle wrapper
+├── 🏗️ build.gradle                      # Configuración del proyecto
+├── ⚙️ settings.gradle                    # Configuración de módulos
+└── 📝 README.md                         # Este archivo
+```
 
-## ¿Quieres conocer más sobre la carrera de Desarrollo Web Full Stack en Henry?
+## 🔧 Configuración de Permisos
 
-En este video te explicamos todo lo que debes conocer:
+La aplicación requiere los siguientes permisos especiales:
 
-<div class="iframeContainer">
-<iframe src="https://player.vimeo.com/video/426051769" allow="autoplay; fullscreen"></iframe>
-</div>
+### 🔐 Permisos Críticos
+- **Administración del dispositivo** - Para bloquear apps
+- **Acceso a estadísticas de uso** - Para monitorear tiempo de pantalla
+- **Ubicación en segundo plano** - Para seguimiento GPS
+- **Overlay del sistema** - Para mostrar alertas
 
-Aclaración: a partir de noviembre del 2022, el Henry Challenge se realiza todos los sábados.
+### 📱 Permisos Estándar
+- Internet, estado de red, WiFi
+- Notificaciones, vibración
+- Contactos, cámara (opcional)
+- Arranque automático
+
+## 🆚 Comparación con Qustodio
+
+| Característica | SafeGuard | Qustodio |
+|----------------|-----------|----------|
+| **Interfaz** | ✅ Material Design 3 | ❌ Interfaz antigua |
+| **Tiempo Real** | ✅ Actualizaciones instantáneas | ⚠️ Retraso en sync |
+| **Personalización** | ✅ Altamente personalizable | ❌ Opciones limitadas |
+| **Reportes** | ✅ Análisis avanzado | ⚠️ Reportes básicos |
+| **Ubicación** | ✅ GPS preciso + zonas | ⚠️ Ubicación básica |
+| **Precio** | ✅ Código abierto | ❌ Suscripción cara |
+| **Privacidad** | ✅ Datos bajo tu control | ❌ Datos en servidores externos |
+
+## 🤝 Contribuir al Proyecto
+
+¡Las contribuciones son bienvenidas! Por favor:
+
+1. **Fork** el repositorio
+2. **Crea** una rama para tu feature (`git checkout -b feature/nueva-funcionalidad`)
+3. **Commit** tus cambios (`git commit -am 'Agregar nueva funcionalidad'`)
+4. **Push** a la rama (`git push origin feature/nueva-funcionalidad`)
+5. **Crea** un Pull Request
+
+## 📄 Licencia
+
+Este proyecto está bajo la **Licencia MIT**. Ver [LICENSE](LICENSE) para más detalles.
+
+## 🙏 Agradecimientos
+
+- **Material Design Team** por los componentes de UI
+- **Firebase Team** por la infraestructura backend
+- **Android Jetpack** por las librerías modernas
+- **Comunidad Open Source** por las librerías utilizadas
+
+## 📞 Soporte y Contacto
+
+- **🐛 Issues**: [GitHub Issues](https://github.com/tu-usuario/safeguard-parental/issues)
+- **💬 Discusiones**: [GitHub Discussions](https://github.com/tu-usuario/safeguard-parental/discussions)
+- **📧 Email**: safeguard.parental@gmail.com
+- **📱 Telegram**: @SafeGuardParental
+
+## 🔄 Roadmap
+
+### 📅 Próximas Versiones
+
+#### v1.1.0 - Control Avanzado
+- [ ] Bloqueo de llamadas y SMS
+- [ ] Control de redes sociales mejorado
+- [ ] Límites por horarios específicos
+- [ ] Modo de estudio/tarea
+
+#### v1.2.0 - IA y Machine Learning
+- [ ] Detección automática de contenido inapropiado
+- [ ] Predicción de patrones de uso
+- [ ] Recomendaciones inteligentes
+- [ ] Análisis de comportamiento
+
+#### v1.3.0 - Multiplataforma
+- [ ] Versión para iOS
+- [ ] Panel web para padres
+- [ ] Sincronización entre dispositivos
+- [ ] API pública para integraciones
+
+---
+
+## ⭐ Si te gusta el proyecto, ¡dale una estrella!
+
+**SafeGuard Parental** - *Protegiendo familias con tecnología inteligente* 🛡️👨‍👩‍👧‍👦
