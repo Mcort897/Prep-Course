@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ParentGuard Pro</string>
+    
+    <!-- Autenticación -->
+    <string name="login">Iniciar Sesión</string>
+    <string name="register">Registrarse</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="confirm_password">Confirmar Contraseña</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="user_type_parent">Padre/Madre</string>
+    <string name="user_type_child">Hijo/Hija</string>
+    <string name="family_code">Código de Familia</string>
+    
+    <!-- Navegación -->
+    <string name="dashboard">Panel Principal</string>
+    <string name="children">Hijos</string>
+    <string name="reports">Reportes</string>
+    <string name="settings">Configuración</string>
+    <string name="profile">Perfil</string>
+    
+    <!-- Control Parental -->
+    <string name="app_usage">Uso de Aplicaciones</string>
+    <string name="web_filtering">Filtrado Web</string>
+    <string name="time_limits">Límites de Tiempo</string>
+    <string name="location_tracking">Seguimiento de Ubicación</string>
+    <string name="block_apps">Bloquear Aplicaciones</string>
+    <string name="allow_apps">Permitir Aplicaciones</string>
+    <string name="blocked_websites">Sitios Bloqueados</string>
+    <string name="allowed_websites">Sitios Permitidos</string>
+    
+    <!-- Notificaciones -->
+    <string name="notification_channel_parental">Control Parental</string>
+    <string name="notification_channel_alerts">Alertas</string>
+    <string name="notification_channel_rewards">Recompensas</string>
+    <string name="time_limit_reached">Límite de tiempo alcanzado</string>
+    <string name="blocked_app_attempt">Intento de usar aplicación bloqueada</string>
+    <string name="location_alert">Alerta de ubicación</string>
+    
+    <!-- Permisos -->
+    <string name="permission_usage_stats">Permisos de Estadísticas de Uso</string>
+    <string name="permission_accessibility">Permisos de Accesibilidad</string>
+    <string name="permission_location">Permisos de Ubicación</string>
+    <string name="permission_notification">Permisos de Notificaciones</string>
+    <string name="permission_explanation">Esta aplicación necesita estos permisos para funcionar correctamente</string>
+    <string name="accessibility_service_description">Servicio de control parental para monitorear y controlar el uso de aplicaciones</string>
+    
+    <!-- Errores -->
+    <string name="error_generic">Ha ocurrido un error</string>
+    <string name="error_network">Error de conexión</string>
+    <string name="error_auth">Error de autenticación</string>
+    <string name="error_permission_denied">Permiso denegado</string>
+    
+    <!-- Éxito -->
+    <string name="success_saved">Guardado exitosamente</string>
+    <string name="success_updated">Actualizado exitosamente</string>
+    <string name="success_deleted">Eliminado exitosamente</string>
+    
+    <!-- Tiempo -->
+    <string name="hours">Horas</string>
+    <string name="minutes">Minutos</string>
+    <string name="seconds">Segundos</string>
+    <string name="daily">Diario</string>
+    <string name="weekly">Semanal</string>
+    <string name="monthly">Mensual</string>
+    
+    <!-- Recompensas -->
+    <string name="rewards">Recompensas</string>
+    <string name="points">Puntos</string>
+    <string name="achievements">Logros</string>
+    <string name="goals">Metas</string>
+    <string name="earned_points">Puntos ganados: %d</string>
+    <string name="total_points">Puntos totales: %d</string>
+    
+    <!-- Mensajes de bienvenida -->
+    <string name="welcome_title">¡Bienvenido a ParentGuard Pro!</string>
+    <string name="welcome_subtitle">La mejor aplicación de control parental para Android</string>
+    <string name="welcome_description">Protege a tus hijos con funciones avanzadas de monitoreo, filtrado web, límites de tiempo y mucho más.</string>
+    
+    <!-- Características -->
+    <string name="feature_app_monitoring">Monitoreo de Aplicaciones</string>
+    <string name="feature_app_monitoring_desc">Rastrea el uso de aplicaciones en tiempo real</string>
+    <string name="feature_web_filtering">Filtrado Web</string>
+    <string name="feature_web_filtering_desc">Bloquea contenido inapropiado en la web</string>
+    <string name="feature_time_limits">Límites de Tiempo</string>
+    <string name="feature_time_limits_desc">Establece límites de tiempo para aplicaciones</string>
+    <string name="feature_location_tracking">Seguimiento de Ubicación</string>
+    <string name="feature_location_tracking_desc">Rastrea la ubicación de tus hijos</string>
+    <string name="feature_rewards">Sistema de Recompensas</string>
+    <string name="feature_rewards_desc">Motiva a tus hijos con recompensas</string>
+    <string name="feature_reports">Reportes Detallados</string>
+    <string name="feature_reports_desc">Obtén reportes completos de actividad</string>
+</resources>

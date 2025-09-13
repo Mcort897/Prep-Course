@@ -1,66 +1,283 @@
-![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
+# ParentGuard Pro - Aplicación de Control Parental para Android
 
-# Prep Course
+## Descripción
+ParentGuard Pro es una aplicación avanzada de control parental para Android que ofrece funcionalidades similares a Qustodio pero con mejoras significativas. La aplicación utiliza Firebase para la sincronización de datos y ofrece un sistema completo de monitoreo, filtrado y control parental.
 
-#### Introducción
+## Características Principales
 
-¡Hola! Bienvenido al Prep Course para la carrera de Desarrollo Web Full Stack
+### 🔒 Control Parental Avanzado
+- **Monitoreo de Aplicaciones**: Rastrea el uso de aplicaciones en tiempo real
+- **Filtrado Web**: Bloquea contenido inapropiado en la web
+- **Límites de Tiempo**: Establece límites de tiempo para aplicaciones específicas
+- **Seguimiento de Ubicación**: Rastrea la ubicación de tus hijos
+- **Sistema de Recompensas**: Motiva a tus hijos con recompensas y logros
 
-En este curso introductorio podrás aprender todo el contenido que luego será evaluado en el Henry Challenge, el último paso para ingresar a la carrera de Desarrollo Web Full Stack en Henry.
+### 📱 Funcionalidades Técnicas
+- **Interfaz Moderna**: Diseño con Jetpack Compose
+- **Base de Datos Local**: Room Database para almacenamiento local
+- **Sincronización en Tiempo Real**: Firebase para sincronización entre dispositivos
+- **Notificaciones Inteligentes**: Sistema de notificaciones personalizable
+- **Servicios en Segundo Plano**: Monitoreo continuo sin afectar el rendimiento
 
-## ¿Qué es el Prep Course?
+## Requisitos del Sistema
 
-El Prep Course, o curso preparatorio, es un curso que diseñamos desde Henry con la finalidad de nivelar a todos nuestros aplicantes. La idea es que con este curso puedas dar tus primeros pasos en tecnología y así aprender esos conceptos básicos que serán necesarios para cuando estés dentro de la carrera.
+### Android Studio
+- **Versión**: Android Studio Hedgehog (2023.1.1) o superior
+- **SDK**: Android API 24 (Android 7.0) o superior
+- **Target SDK**: Android API 34 (Android 14)
 
-#### ¿En qué consiste el Prep Course?
+### Dispositivo Android
+- **Versión**: Android 7.0 (API 24) o superior
+- **RAM**: Mínimo 2GB recomendado
+- **Almacenamiento**: 100MB de espacio libre
 
-El curso consiste en una serie de videos, material escrito y ejercicios para que puedas ir aprendiendo estos conceptos básicos de Javascript, HTML y CSS. Todo el material se encuentra **aquí en la parte superior de la página**, iniciando por la sección de **"Intro"** y finalizando en la sección del **"Challenge"**.
+## Instalación y Configuración
 
-Podrás ir avanzando con el contenido a tu ritmo y de manera asincrónica (es decir, en los horarios y tiempos que tu prefieras). Cuando hayas finalizado, podrás inscribirte para realizar el Henry Challenge.
+### Paso 1: Configurar Android Studio
 
-## ¿Qué es el Henry Challenge?
+1. **Descargar Android Studio**
+   - Ve a [developer.android.com](https://developer.android.com/studio)
+   - Descarga la última versión de Android Studio
+   - Instala siguiendo las instrucciones del instalador
 
-Es un examen donde evaluamos los conceptos que se aprenden en el Prep Course. El examen tiene la finalidad de asegurarnos que realmente se han aprendido estos conceptos, dado que tenerlos bien claros es la clave de éxito para que puedas avanzar bien dentro de la carrera.
-El examen se realiza todos los sábados, previa inscripción en el siguiente [link](https://www.admissions.soyhenry.com/). Podrás rendirlo todas las veces que quieras. Para más información, puedes ir a la sección del challenge de este repositorio (prep.soyhenry.com/challenge).
+2. **Configurar el SDK**
+   - Abre Android Studio
+   - Ve a `File > Settings > Appearance & Behavior > System Settings > Android SDK`
+   - Instala las siguientes versiones del SDK:
+     - Android 14 (API 34) - Target SDK
+     - Android 7.0 (API 24) - Minimum SDK
+     - Android SDK Build-Tools 34.0.0
+     - Android SDK Platform-Tools
+     - Android SDK Tools
 
-## ¿Qué puedo hacer si tengo dudas?
+### Paso 2: Configurar Firebase
 
-Contamos con dos herramientas de apoyo:
+1. **Crear Proyecto Firebase**
+   - Ve a [console.firebase.google.com](https://console.firebase.google.com)
+   - Haz clic en "Crear un proyecto"
+   - Nombra tu proyecto: "ParentGuard Pro"
+   - Habilita Google Analytics (opcional)
 
-**Slack:** es una plataforma de comunicación, donde podrás ponerte en contacto con nuestra comunidad que siempre te ayudará a resolver todas tus dudas. Encontrarás acceso a Slack desde la [plataforma de admisión](https://www.admissions.soyhenry.com/) o desde los mails que recibiste al momento de aplicar.
-Más adelante te explicaremos cómo usar la herramienta.
+2. **Agregar Aplicación Android**
+   - En la consola de Firebase, haz clic en "Agregar app"
+   - Selecciona el ícono de Android
+   - **Nombre del paquete**: `com.parentguard.pro`
+   - **Apodo de la app**: ParentGuard Pro
+   - **Certificado de firma**: Deja en blanco por ahora
 
-**Clases de apoyo en vivo:** de lunes a viernes hay un espacio en vivo via Zoom con estudiantes avanzados que se postulan para responder todas tus consultas.
+3. **Descargar google-services.json**
+   - Descarga el archivo `google-services.json`
+   - Colócalo en la carpeta `app/` del proyecto
 
-#### Entonces, ¿qué debo hacer ahora para avanzar con el proceso?
+4. **Habilitar Servicios Firebase**
+   - En la consola de Firebase, habilita los siguientes servicios:
+     - **Authentication**: Para autenticación de usuarios
+     - **Firestore Database**: Para almacenamiento de datos
+     - **Cloud Storage**: Para archivos multimedia
+     - **Cloud Messaging**: Para notificaciones push
+     - **Analytics**: Para estadísticas de uso
 
-Debes comenzar a ver todos los videos, el material escrito y a hacer los ejercicios, siguiendo el orden postulado aquí en el curso. Una vez que hayas finalizado, podrás realizar el Henry Challenge.
+### Paso 3: Configurar el Proyecto
 
-Cualquier duda, nos puedes escribir a admisiones@soyhenry.com
-¡Muchos éxitos!
+1. **Clonar o Descargar el Proyecto**
+   ```bash
+   git clone [URL_DEL_REPOSITORIO]
+   cd parentguard-pro
+   ```
 
-## Clases de Apoyo
+2. **Abrir en Android Studio**
+   - Abre Android Studio
+   - Selecciona "Open an existing project"
+   - Navega a la carpeta del proyecto y selecciónala
 
-Para poder acompañarte en esta etapa, ponemos a disposición las “Clases de apoyo en vivo”. Estos son espacios donde los Henry Heros (HHs), es decir estudiantes avanzados de Henry, se ponen a disposición para despejar todas las dudas que puedas tener mientras estás estudiando el Prep Course.
+3. **Sincronizar Gradle**
+   - Android Studio detectará automáticamente los archivos de configuración
+   - Haz clic en "Sync Now" cuando aparezca la notificación
+   - Espera a que se descarguen todas las dependencias
 
-Las clases son de lunes a viernes, por la tarde. Cada día se establece una temática distinta a trabajar. Deberás llegar a la clase habiendo visto los videos sobre ese tema e intentado resolver los ejercicios, dado que en las clases no se explicará los temas desde cero sino que se resolverán dudas puntuales.
+### Paso 4: Configurar Permisos
 
-Si no puedes asistir al espacio en vivo, podrás ver la grabación. Puedes encontrar el calendario con las clases, el link de acceso y el link de la grabación, aquí: [calendario](/Calendario)
+1. **Permisos del Sistema**
+   - La aplicación requiere varios permisos especiales
+   - Al ejecutar por primera vez, la app te guiará para configurar:
+     - **Estadísticas de Uso**: Ve a Configuración > Aplicaciones > Acceso especial > Acceso a estadísticas de uso
+     - **Servicio de Accesibilidad**: Ve a Configuración > Accesibilidad > Servicios instalados
+     - **Notificaciones**: Permite notificaciones de la aplicación
+     - **Ubicación**: Permite acceso a la ubicación
 
-## Open House
+2. **Configuración Manual**
+   - Algunos permisos requieren configuración manual en el dispositivo
+   - La aplicación te guiará paso a paso para configurar cada permiso
 
-Te compartimos esta grabación del último Open House que hicimos en nuestro canal de Youtube. En este video podrás conocer más sobre Henry, la carrera y el proceso de admisión:
+### Paso 5: Compilar y Ejecutar
 
-<div class="iframeContainer">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/p_Hb0_v8SAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+1. **Compilar la Aplicación**
+   - En Android Studio, haz clic en `Build > Build Bundle(s) / APK(s) > Build APK(s)`
+   - Espera a que termine la compilación
+   - El APK se generará en `app/build/outputs/apk/debug/`
 
-## ¿Quieres conocer más sobre la carrera de Desarrollo Web Full Stack en Henry?
+2. **Instalar en Dispositivo**
+   - Conecta tu dispositivo Android al ordenador
+   - Habilita "Depuración USB" en las opciones de desarrollador
+   - En Android Studio, haz clic en el botón "Run" (▶️)
+   - Selecciona tu dispositivo y haz clic en "OK"
 
-En este video te explicamos todo lo que debes conocer:
+3. **Instalar APK Manualmente**
+   - Transfiere el archivo APK al dispositivo
+   - Habilita "Instalar aplicaciones de orígenes desconocidos"
+   - Abre el archivo APK y sigue las instrucciones de instalación
 
-<div class="iframeContainer">
-<iframe src="https://player.vimeo.com/video/426051769" allow="autoplay; fullscreen"></iframe>
-</div>
+## Configuración Inicial
 
-Aclaración: a partir de noviembre del 2022, el Henry Challenge se realiza todos los sábados.
+### Primera Ejecución
+
+1. **Abrir la Aplicación**
+   - Busca "ParentGuard Pro" en el launcher
+   - Toca el ícono para abrir la aplicación
+
+2. **Configurar Permisos**
+   - La aplicación te pedirá varios permisos
+   - Acepta todos los permisos necesarios
+   - Para permisos especiales, sigue las instrucciones en pantalla
+
+3. **Crear Cuenta**
+   - Selecciona "Registrarse"
+   - Elige el tipo de usuario: "Padre/Madre" o "Hijo/Hija"
+   - Completa el formulario de registro
+   - Verifica tu correo electrónico si es necesario
+
+4. **Configurar Familia**
+   - Si eres padre/madre, crea un código de familia
+   - Comparte el código con tus hijos
+   - Si eres hijo/hija, ingresa el código de familia
+
+### Configuración Avanzada
+
+1. **Panel de Control para Padres**
+   - Accede al panel de control
+   - Configura límites de tiempo para cada hijo
+   - Establece filtros web personalizados
+   - Configura zonas de ubicación permitidas/restringidas
+
+2. **Configuración para Hijos**
+   - Los hijos pueden ver su progreso y recompensas
+   - Pueden solicitar extensiones de tiempo
+   - Tienen acceso a un botón de pánico para emergencias
+
+## Funcionalidades Detalladas
+
+### Monitoreo de Aplicaciones
+- **Tiempo de Uso**: Rastrea cuánto tiempo se usa cada aplicación
+- **Categorización**: Clasifica automáticamente las aplicaciones por categoría
+- **Bloqueo**: Bloquea aplicaciones específicas o por categoría
+- **Reportes**: Genera reportes detallados de uso
+
+### Filtrado Web
+- **Listas de Bloqueo**: Bloquea sitios web específicos
+- **Filtros por Categoría**: Bloquea categorías de contenido
+- **Filtros por Palabras Clave**: Bloquea contenido con palabras específicas
+- **Modo de Aprendizaje**: Aprende de los patrones de uso
+
+### Límites de Tiempo
+- **Límites Diarios**: Establece límites de tiempo por día
+- **Límites por Aplicación**: Límites específicos para cada app
+- **Horarios de Uso**: Restringe el uso en ciertos horarios
+- **Extensiones**: Permite extensiones de tiempo con aprobación
+
+### Seguimiento de Ubicación
+- **Ubicación en Tiempo Real**: Rastrea la ubicación actual
+- **Historial de Ubicaciones**: Guarda el historial de movimientos
+- **Zonas de Seguridad**: Define zonas permitidas y restringidas
+- **Alertas de Ubicación**: Notifica cuando se entra/sale de zonas
+
+### Sistema de Recompensas
+- **Puntos**: Sistema de puntos por buen comportamiento
+- **Logros**: Desbloquea logros por cumplir objetivos
+- **Recompensas**: Canjea puntos por recompensas
+- **Metas**: Establece metas personalizadas
+
+## Solución de Problemas
+
+### Problemas Comunes
+
+1. **Error de Compilación**
+   - Verifica que todas las dependencias estén sincronizadas
+   - Limpia el proyecto: `Build > Clean Project`
+   - Reconstruye el proyecto: `Build > Rebuild Project`
+
+2. **Error de Permisos**
+   - Verifica que todos los permisos estén configurados correctamente
+   - Reinicia la aplicación después de otorgar permisos
+   - Verifica la configuración en Configuración > Aplicaciones
+
+3. **Error de Firebase**
+   - Verifica que el archivo `google-services.json` esté en la carpeta correcta
+   - Verifica que los servicios de Firebase estén habilitados
+   - Verifica la conexión a internet
+
+4. **Error de Base de Datos**
+   - Verifica que la aplicación tenga permisos de almacenamiento
+   - Limpia los datos de la aplicación si es necesario
+   - Verifica que haya espacio suficiente en el dispositivo
+
+### Logs y Depuración
+
+1. **Ver Logs en Android Studio**
+   - Abre la pestaña "Logcat"
+   - Filtra por "ParentGuard" para ver solo los logs de la aplicación
+   - Busca errores en rojo o advertencias en amarillo
+
+2. **Modo de Depuración**
+   - Habilita el modo de depuración en las opciones de desarrollador
+   - Conecta el dispositivo y ejecuta la aplicación
+   - Los logs aparecerán en tiempo real en Android Studio
+
+## Personalización
+
+### Temas y Colores
+- La aplicación soporta temas claro y oscuro
+- Los colores se pueden personalizar en `colors.xml`
+- Los estilos se pueden modificar en `themes.xml`
+
+### Configuraciones Avanzadas
+- Modifica los límites de tiempo por defecto
+- Personaliza las categorías de aplicaciones
+- Configura las notificaciones según tus preferencias
+
+## Contribuir
+
+### Reportar Bugs
+- Si encuentras un bug, crea un issue en el repositorio
+- Incluye pasos para reproducir el problema
+- Adjunta logs y capturas de pantalla si es posible
+
+### Sugerir Funcionalidades
+- Las sugerencias son bienvenidas
+- Crea un issue con la etiqueta "enhancement"
+- Describe la funcionalidad que te gustaría ver
+
+### Contribuir al Código
+- Fork el repositorio
+- Crea una rama para tu funcionalidad
+- Envía un pull request con tu contribución
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
+
+## Contacto
+
+- **Email**: support@parentguardpro.com
+- **Website**: https://parentguardpro.com
+- **GitHub**: https://github.com/parentguardpro
+
+## Agradecimientos
+
+- Google Firebase por los servicios en la nube
+- Jetpack Compose por el framework de UI
+- Room Database por el almacenamiento local
+- La comunidad de Android por el soporte y contribuciones
+
+---
+
+**Nota**: Esta aplicación está diseñada para uso familiar y educativo. Siempre respeta la privacidad y los derechos de tus hijos. Usa la aplicación de manera responsable y transparente.
