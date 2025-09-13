@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Parental Control Pro</string>
+    
+    <!-- Auth -->
+    <string name="login">Iniciar Sesión</string>
+    <string name="register">Registrarse</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="confirm_password">Confirmar Contraseña</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="login_as_parent">Iniciar como Padre</string>
+    <string name="login_as_child">Iniciar como Hijo</string>
+    <string name="create_parent_account">Crear Cuenta de Padre</string>
+    <string name="create_child_account">Crear Cuenta de Hijo</string>
+    
+    <!-- Parent Dashboard -->
+    <string name="dashboard">Panel de Control</string>
+    <string name="children">Hijos</string>
+    <string name="monitoring">Monitoreo</string>
+    <string name="reports">Reportes</string>
+    <string name="settings">Configuración</string>
+    <string name="add_child">Agregar Hijo</string>
+    <string name="child_name">Nombre del Hijo</string>
+    <string name="child_age">Edad</string>
+    <string name="child_grade">Grado</string>
+    
+    <!-- Monitoring -->
+    <string name="app_usage">Uso de Aplicaciones</string>
+    <string name="web_activity">Actividad Web</string>
+    <string name="location_tracking">Seguimiento de Ubicación</string>
+    <string name="call_logs">Registro de Llamadas</string>
+    <string name="messages">Mensajes</string>
+    <string name="screen_time">Tiempo de Pantalla</string>
+    <string name="blocked_apps">Aplicaciones Bloqueadas</string>
+    <string name="allowed_apps">Aplicaciones Permitidas</string>
+    
+    <!-- Time Control -->
+    <string name="daily_limit">Límite Diario</string>
+    <string name="bedtime">Hora de Dormir</string>
+    <string name="break_time">Tiempo de Descanso</string>
+    <string name="study_time">Tiempo de Estudio</string>
+    <string name="play_time">Tiempo de Juego</string>
+    <string name="set_limits">Establecer Límites</string>
+    <string name="time_remaining">Tiempo Restante</string>
+    <string name="time_exceeded">Tiempo Excedido</string>
+    
+    <!-- Content Filtering -->
+    <string name="web_filter">Filtro Web</string>
+    <string name="blocked_sites">Sitios Bloqueados</string>
+    <string name="allowed_sites">Sitios Permitidos</string>
+    <string name="safe_search">Búsqueda Segura</string>
+    <string name="adult_content">Contenido Adulto</string>
+    <string name="violence_content">Contenido Violento</string>
+    <string name="gambling_content">Contenido de Apuestas</string>
+    
+    <!-- Location -->
+    <string name="current_location">Ubicación Actual</string>
+    <string name="safe_zones">Zonas Seguras</string>
+    <string name="danger_zones">Zonas de Peligro</string>
+    <string name="geofencing">Geofencing</string>
+    <string name="location_history">Historial de Ubicaciones</string>
+    <string name="emergency_contacts">Contactos de Emergencia</string>
+    
+    <!-- Notifications -->
+    <string name="notifications">Notificaciones</string>
+    <string name="alerts">Alertas</string>
+    <string name="emergency_alert">Alerta de Emergencia</string>
+    <string name="time_limit_alert">Alerta de Límite de Tiempo</string>
+    <string name="location_alert">Alerta de Ubicación</string>
+    <string name="content_alert">Alerta de Contenido</string>
+    
+    <!-- Reports -->
+    <string name="daily_report">Reporte Diario</string>
+    <string name="weekly_report">Reporte Semanal</string>
+    <string name="monthly_report">Reporte Mensual</string>
+    <string name="usage_statistics">Estadísticas de Uso</string>
+    <string name="most_used_apps">Aplicaciones Más Usadas</string>
+    <string name="most_visited_sites">Sitios Más Visitados</string>
+    <string name="time_analysis">Análisis de Tiempo</string>
+    
+    <!-- Settings -->
+    <string name="account_settings">Configuración de Cuenta</string>
+    <string name="privacy_settings">Configuración de Privacidad</string>
+    <string name="security_settings">Configuración de Seguridad</string>
+    <string name="notification_settings">Configuración de Notificaciones</string>
+    <string name="backup_settings">Configuración de Respaldo</string>
+    <string name="about">Acerca de</string>
+    <string name="help">Ayuda</string>
+    <string name="logout">Cerrar Sesión</string>
+    
+    <!-- Common -->
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Eliminar</string>
+    <string name="edit">Editar</string>
+    <string name="add">Agregar</string>
+    <string name="remove">Quitar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="error">Error</string>
+    <string name="success">Éxito</string>
+    <string name="loading">Cargando...</string>
+    <string name="retry">Reintentar</string>
+    
+    <!-- Permissions -->
+    <string name="permission_required">Permiso Requerido</string>
+    <string name="permission_usage_stats">Se requiere permiso de estadísticas de uso para monitorear aplicaciones</string>
+    <string name="permission_location">Se requiere permiso de ubicación para seguimiento</string>
+    <string name="permission_notification">Se requiere permiso de notificaciones para alertas</string>
+    <string name="permission_accessibility">Se requiere permiso de accesibilidad para control de aplicaciones</string>
+    <string name="grant_permission">Otorgar Permiso</string>
+    <string name="permission_denied">Permiso Denegado</string>
+    
+    <!-- Time formats -->
+    <string name="time_format">%02d:%02d</string>
+    <string name="date_format">dd/MM/yyyy</string>
+    <string name="datetime_format">dd/MM/yyyy HH:mm</string>
+    
+    <!-- Error messages -->
+    <string name="error_network">Error de conexión de red</string>
+    <string name="error_auth">Error de autenticación</string>
+    <string name="error_permission">Permiso denegado</string>
+    <string name="error_unknown">Error desconocido</string>
+    <string name="error_invalid_email">Correo electrónico inválido</string>
+    <string name="error_weak_password">Contraseña débil</string>
+    <string name="error_passwords_not_match">Las contraseñas no coinciden</string>
+    
+    <!-- Success messages -->
+    <string name="success_login">Inicio de sesión exitoso</string>
+    <string name="success_register">Registro exitoso</string>
+    <string name="success_save">Guardado exitoso</string>
+    <string name="success_delete">Eliminado exitoso</string>
+    
+    <!-- Child interface -->
+    <string name="welcome_child">¡Hola!</string>
+    <string name="time_left">Tiempo restante</string>
+    <string name="apps_available">Aplicaciones disponibles</string>
+    <string name="request_more_time">Solicitar más tiempo</string>
+    <string name="request_app">Solicitar aplicación</string>
+    <string name="request_website">Solicitar sitio web</string>
+    <string name="emergency_call">Llamada de emergencia</string>
+    <string name="study_mode">Modo de estudio</string>
+    <string name="play_mode">Modo de juego</string>
+    
+</resources>

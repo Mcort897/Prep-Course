@@ -1,66 +1,185 @@
-![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
+# Parental Control Pro - Aplicación de Control Parental Avanzada
 
-# Prep Course
+Una aplicación de control parental completa para Android con funcionalidades mejoradas, desarrollada con Firebase y Android Studio.
 
-#### Introducción
+## 🚀 Características Principales
 
-¡Hola! Bienvenido al Prep Course para la carrera de Desarrollo Web Full Stack
+### Para Padres:
+- **Dashboard Completo**: Vista general de la actividad de todos los hijos
+- **Monitoreo en Tiempo Real**: Seguimiento de aplicaciones, web, ubicación y llamadas
+- **Control de Tiempo**: Límites diarios, horarios de estudio y descanso
+- **Filtrado de Contenido**: Bloqueo de sitios web inapropiados
+- **Geolocalización**: Zonas seguras y de peligro con alertas
+- **Reportes Detallados**: Estadísticas diarias, semanales y mensuales
+- **Sistema de Alertas**: Notificaciones instantáneas de actividades sospechosas
 
-En este curso introductorio podrás aprender todo el contenido que luego será evaluado en el Henry Challenge, el último paso para ingresar a la carrera de Desarrollo Web Full Stack en Henry.
+### Para Hijos:
+- **Interfaz Amigable**: Diseño intuitivo y fácil de usar
+- **Control de Tiempo**: Visualización del tiempo restante disponible
+- **Aplicaciones Permitidas**: Acceso solo a apps autorizadas
+- **Sistema de Solicitudes**: Pedir permisos para apps o sitios web
+- **Modo de Emergencia**: Acceso rápido a contactos de emergencia
 
-## ¿Qué es el Prep Course?
+## 🛠️ Tecnologías Utilizadas
 
-El Prep Course, o curso preparatorio, es un curso que diseñamos desde Henry con la finalidad de nivelar a todos nuestros aplicantes. La idea es que con este curso puedas dar tus primeros pasos en tecnología y así aprender esos conceptos básicos que serán necesarios para cuando estés dentro de la carrera.
+- **Android Studio**: IDE principal
+- **Kotlin**: Lenguaje de programación
+- **Firebase**: Backend y servicios en la nube
+  - Authentication
+  - Firestore Database
+  - Cloud Storage
+  - Cloud Messaging
+  - Analytics
+- **Room Database**: Base de datos local
+- **Hilt**: Inyección de dependencias
+- **Navigation Component**: Navegación entre pantallas
+- **Material Design 3**: UI/UX moderna
+- **Google Play Services**: Ubicación y mapas
 
-#### ¿En qué consiste el Prep Course?
+## 📋 Requisitos del Sistema
 
-El curso consiste en una serie de videos, material escrito y ejercicios para que puedas ir aprendiendo estos conceptos básicos de Javascript, HTML y CSS. Todo el material se encuentra **aquí en la parte superior de la página**, iniciando por la sección de **"Intro"** y finalizando en la sección del **"Challenge"**.
+- Android Studio Arctic Fox o superior
+- Android SDK 24+ (Android 7.0)
+- Java 8 o superior
+- Cuenta de Google para Firebase
+- Dispositivo Android para pruebas
 
-Podrás ir avanzando con el contenido a tu ritmo y de manera asincrónica (es decir, en los horarios y tiempos que tu prefieras). Cuando hayas finalizado, podrás inscribirte para realizar el Henry Challenge.
+## 🔧 Instalación y Configuración
 
-## ¿Qué es el Henry Challenge?
+### 1. Clonar el Proyecto
+```bash
+git clone [url-del-repositorio]
+cd parental-control-pro
+```
 
-Es un examen donde evaluamos los conceptos que se aprenden en el Prep Course. El examen tiene la finalidad de asegurarnos que realmente se han aprendido estos conceptos, dado que tenerlos bien claros es la clave de éxito para que puedas avanzar bien dentro de la carrera.
-El examen se realiza todos los sábados, previa inscripción en el siguiente [link](https://www.admissions.soyhenry.com/). Podrás rendirlo todas las veces que quieras. Para más información, puedes ir a la sección del challenge de este repositorio (prep.soyhenry.com/challenge).
+### 2. Configurar Firebase
 
-## ¿Qué puedo hacer si tengo dudas?
+1. Ve a [Firebase Console](https://console.firebase.google.com/)
+2. Crea un nuevo proyecto llamado "Parental Control Pro"
+3. Agrega una aplicación Android con el package name: `com.parentalcontrolpro`
+4. Descarga el archivo `google-services.json`
+5. Reemplaza el archivo `google-services.json` en la carpeta `app/`
 
-Contamos con dos herramientas de apoyo:
+### 3. Configurar Android Studio
 
-**Slack:** es una plataforma de comunicación, donde podrás ponerte en contacto con nuestra comunidad que siempre te ayudará a resolver todas tus dudas. Encontrarás acceso a Slack desde la [plataforma de admisión](https://www.admissions.soyhenry.com/) o desde los mails que recibiste al momento de aplicar.
-Más adelante te explicaremos cómo usar la herramienta.
+1. Abre Android Studio
+2. Selecciona "Open an existing project"
+3. Navega a la carpeta del proyecto y ábrela
+4. Espera a que Gradle sincronice las dependencias
 
-**Clases de apoyo en vivo:** de lunes a viernes hay un espacio en vivo via Zoom con estudiantes avanzados que se postulan para responder todas tus consultas.
+### 4. Configurar Permisos
 
-#### Entonces, ¿qué debo hacer ahora para avanzar con el proceso?
+La aplicación requiere varios permisos especiales. Asegúrate de:
 
-Debes comenzar a ver todos los videos, el material escrito y a hacer los ejercicios, siguiendo el orden postulado aquí en el curso. Una vez que hayas finalizado, podrás realizar el Henry Challenge.
+1. Habilitar "Instalación desde fuentes desconocidas"
+2. Otorgar permisos de "Estadísticas de uso"
+3. Habilitar "Accesibilidad" para control de aplicaciones
+4. Permitir "Superposición de pantalla" para notificaciones
 
-Cualquier duda, nos puedes escribir a admisiones@soyhenry.com
-¡Muchos éxitos!
+### 5. Compilar y Ejecutar
 
-## Clases de Apoyo
+1. Conecta tu dispositivo Android o inicia un emulador
+2. Haz clic en "Run" (▶️) en Android Studio
+3. Selecciona tu dispositivo
+4. La aplicación se compilará e instalará automáticamente
 
-Para poder acompañarte en esta etapa, ponemos a disposición las “Clases de apoyo en vivo”. Estos son espacios donde los Henry Heros (HHs), es decir estudiantes avanzados de Henry, se ponen a disposición para despejar todas las dudas que puedas tener mientras estás estudiando el Prep Course.
+## 📱 Uso de la Aplicación
 
-Las clases son de lunes a viernes, por la tarde. Cada día se establece una temática distinta a trabajar. Deberás llegar a la clase habiendo visto los videos sobre ese tema e intentado resolver los ejercicios, dado que en las clases no se explicará los temas desde cero sino que se resolverán dudas puntuales.
+### Primera Configuración
 
-Si no puedes asistir al espacio en vivo, podrás ver la grabación. Puedes encontrar el calendario con las clases, el link de acceso y el link de la grabación, aquí: [calendario](/Calendario)
+1. **Registro de Padre**:
+   - Abre la aplicación
+   - Selecciona "Crear Cuenta de Padre"
+   - Completa el formulario de registro
+   - Verifica tu correo electrónico
 
-## Open House
+2. **Registro de Hijo**:
+   - En el panel de padre, selecciona "Agregar Hijo"
+   - Completa la información del niño
+   - Configura límites y restricciones
 
-Te compartimos esta grabación del último Open House que hicimos en nuestro canal de Youtube. En este video podrás conocer más sobre Henry, la carrera y el proceso de admisión:
+3. **Configuración de Permisos**:
+   - Otorga todos los permisos necesarios
+   - Configura las zonas seguras en el mapa
+   - Establece horarios y límites de tiempo
 
-<div class="iframeContainer">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/p_Hb0_v8SAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+### Funcionalidades Principales
 
-## ¿Quieres conocer más sobre la carrera de Desarrollo Web Full Stack en Henry?
+#### Panel de Padre:
+- **Dashboard**: Vista general de todos los hijos
+- **Hijos**: Gestión de cuentas de niños
+- **Monitoreo**: Actividad en tiempo real
+- **Reportes**: Estadísticas detalladas
+- **Configuración**: Ajustes de la aplicación
 
-En este video te explicamos todo lo que debes conocer:
+#### Panel de Hijo:
+- **Inicio**: Resumen del tiempo disponible
+- **Aplicaciones**: Apps permitidas y bloqueadas
+- **Tiempo**: Control de tiempo restante
+- **Solicitudes**: Pedir permisos especiales
+- **Perfil**: Información personal
 
-<div class="iframeContainer">
-<iframe src="https://player.vimeo.com/video/426051769" allow="autoplay; fullscreen"></iframe>
-</div>
+## 🔒 Seguridad y Privacidad
 
-Aclaración: a partir de noviembre del 2022, el Henry Challenge se realiza todos los sábados.
+- Todos los datos se almacenan de forma segura en Firebase
+- Encriptación de datos sensibles
+- Cumplimiento con COPPA (Children's Online Privacy Protection Act)
+- No se recopila información personal innecesaria
+- Los padres tienen control total sobre los datos de sus hijos
+
+## 🐛 Solución de Problemas
+
+### Error de Compilación
+- Verifica que todas las dependencias estén sincronizadas
+- Limpia el proyecto: Build → Clean Project
+- Reconstruye el proyecto: Build → Rebuild Project
+
+### Error de Firebase
+- Verifica que el archivo `google-services.json` esté en la ubicación correcta
+- Confirma que el package name coincida con Firebase
+- Revisa la configuración de Firebase en la consola
+
+### Error de Permisos
+- Asegúrate de otorgar todos los permisos necesarios
+- Algunos permisos requieren configuración manual en Ajustes del sistema
+- Reinicia la aplicación después de otorgar permisos
+
+## 📈 Próximas Características
+
+- [ ] Integración con redes sociales
+- [ ] Modo de estudio avanzado
+- [ ] Análisis de sentimientos en mensajes
+- [ ] Integración con dispositivos IoT
+- [ ] Reportes automáticos por email
+- [ ] Modo offline mejorado
+
+## 🤝 Contribuciones
+
+Las contribuciones son bienvenidas. Por favor:
+
+1. Fork el proyecto
+2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
+3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
+
+## 📞 Soporte
+
+Para soporte técnico o preguntas:
+- Email: soporte@parentalcontrolpro.com
+- GitHub Issues: [Crear un issue](https://github.com/usuario/parental-control-pro/issues)
+
+## 🙏 Agradecimientos
+
+- Google Firebase por los servicios en la nube
+- Material Design por los componentes de UI
+- Comunidad de Android por las librerías open source
+- Todos los contribuidores del proyecto
+
+---
+
+**Nota**: Esta aplicación está diseñada para uso familiar y educativo. Los padres son responsables del uso apropiado y del cumplimiento de las leyes locales de privacidad.

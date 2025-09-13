@@ -1,0 +1,10 @@
+package com.parentalcontrolpro.ui.child.apps
+
+import androidx.lifecycle.ViewModel
+import dagger.hilt.android.lifecycle.HiltViewModel
+import javax.inject.Inject
+
+@HiltViewModel
+class AppsViewModel @Inject constructor() : ViewModel() {
+    // TODO: Implement apps functionality
+}
